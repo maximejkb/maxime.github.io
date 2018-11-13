@@ -18,7 +18,8 @@ var text = [
     "`{'cs370' : {'position': 'peer tutor', 'start_time': 'August 2018', 'end_time': 'December 2018'}, <br\>" +
     "'dahlia lights': {'position': 'software developer intern', 'start_time': 'May 2018', 'end_time': 'August 2018'}}`",
     "headshot",
-    ":)",
+    "`:) <br>" +
+    "(artist's rendering)`",
     "for link in moreDetails: print(link)",
     "`<a href=\"coursework.html\">Coursework</a> <br\>" +
     " <a href=\"experience.html\">Experience</a> <br\>" +
