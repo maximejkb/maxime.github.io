@@ -21,7 +21,6 @@
             font-weight: bold;
         }
         h1 {
-            white-space: pre;
             display: inline;
         }
         p {
@@ -63,8 +62,8 @@
             onComplete: () => { ready = true; }
         });
 
-    document.addEventListener('keypress', function(e) {
-        if (e.key === 'Enter' && ready) {
+    var onInteract = function(e) {
+        if (((e.type === 'keypress' && e.key === 'Enter') || e.type === 'touchstart') && ready) {
             document.querySelectorAll(".typed-cursor")[0].remove();
             new Typed(".output",
                 { strings: ["`<strong>cs 370, peer tutor</strong><br> " +
@@ -82,7 +81,10 @@
             // Don't let it run more than once.
             ready = false;
         }
-    });
+    };
+
+    document.addEventListener('keypress', onInteract);
+    document.addEventListener('touchstart', onInteract);
 </script>
 </body>
 </html>

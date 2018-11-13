@@ -60,8 +60,8 @@ var options = {
 };
 new Typed(".commandLine", options);
 
-document.addEventListener('keypress', function(e){
-    if (e.key === 'Enter' && idle) {
+var onInteract = function(e) {
+    if (((e.type === 'keypress' && e.key === 'Enter') || e.type === 'touchstart') && idle) {
         if (lineNum === 0) {
             newPrompt();
         }
@@ -84,7 +84,8 @@ document.addEventListener('keypress', function(e){
 
 
         new Typed(".resumeText",
-            { strings: [text[lineNum]],
+            {
+                strings: [text[lineNum]],
                 typeSpeed: 10,
                 onComplete: () => {
                     newPrompt();
@@ -96,4 +97,7 @@ document.addEventListener('keypress', function(e){
         // Create a new line.
         output.appendChild(document.createElement("BR"));
     }
-});
+};
+
+document.addEventListener('keypress', onInteract, false);
+document.addEventListener('touchstart', onInteract, false);
