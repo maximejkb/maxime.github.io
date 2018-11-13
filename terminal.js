@@ -19,42 +19,67 @@ var text = [
     "'dahlia lights': {'position': 'software developer intern', 'start_time': 'May 2018', 'end_time': 'August 2018'}}`"
 ];
 var idle = false;
+
+var newPrompt = function() {
+    // Remove the Typed tag from the previous element.
+    var resumeLines = document.getElementsByClassName("resumeText");
+    for (var i = 0; i < resumeLines.length; i++) {
+        resumeLines[i].removeAttribute("class");
+    }
+
+    if (!noPrompt.includes(lineNum)) {
+        document.querySelectorAll(".typed-cursor")[0].remove();
+    }
+
+    var output = document.getElementById("outputText");
+    if (!noPrompt.includes(lineNum)) {
+        output.appendChild(document.createTextNode(">>> "));
+        var cursor = document.createElement("SPAN");
+        cursor.appendChild(document.createTextNode("|"));
+        cursor.setAttribute("class", "typed-cursor typed-cursor--blink");
+        output.appendChild(cursor);
+    }
+};
+
+// Type out the header message -- initializing the 'Python REPL'.
 var options = {
     strings: ["python3 -i resume.py"],
     typeSpeed: 40,
     onComplete: () => {
         // Unlock after the initial resume text.
+        newPrompt();
         idle = true;
     }
 };
-var command = new Typed(".commandLine", options);
+new Typed(".commandLine", options);
 
 document.addEventListener('keypress', function(e){
     if (e.key === 'Enter' && idle) {
-        // Remove the Typed tag from the previous element.
-        var resumeLines = document.getElementsByClassName("resumeText");
-        for (var i = 0; i < resumeLines.length; i++) {
-            resumeLines[i].removeAttribute("class");
-        }
-        document.querySelectorAll(".typed-cursor")[0].remove();
-
         if (lineNum >= text.length) {
             return;
         }
 
         idle = false;
+        // Remove the placeholder cursor.
+        var oldCursor = document.querySelectorAll(".typed-cursor");
+        if (oldCursor.length > 0) {
+            oldCursor[0].remove();
+        }
         // Create a new bullet point.
         var line = document.createElement("P");
         line.setAttribute("class", "resumeText");
         var output = document.getElementById("outputText");
-
-        if (!noPrompt.includes(lineNum)) {
-            output.appendChild(document.createTextNode(">>> "));
-        }
-
         output.appendChild(line);
 
-        new Typed(".resumeText", { strings: [text[lineNum]], typeSpeed: 10, onComplete: () => { idle = true; }});
+
+        new Typed(".resumeText",
+            { strings: [text[lineNum]],
+                typeSpeed: 10,
+                onComplete: () => {
+                    newPrompt();
+                    idle = true;
+                }
+            });
         lineNum++;
 
         // Create a new line.
