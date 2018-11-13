@@ -47,7 +47,6 @@ var options = {
     typeSpeed: 40,
     onComplete: () => {
         // Unlock after the initial resume text.
-        newPrompt();
         idle = true;
     }
 };
@@ -55,6 +54,10 @@ new Typed(".commandLine", options);
 
 document.addEventListener('keypress', function(e){
     if (e.key === 'Enter' && idle) {
+        if (lineNum === 0) {
+            newPrompt();
+        }
+
         if (lineNum >= text.length) {
             return;
         }
