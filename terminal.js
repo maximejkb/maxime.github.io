@@ -36,6 +36,7 @@ document.addEventListener('keypress', function(e){
         for (var i = 0; i < resumeLines.length; i++) {
             resumeLines[i].removeAttribute("class");
         }
+        document.querySelectorAll(".typed-cursor")[0].remove();
 
         if (lineNum >= text.length) {
             return;
