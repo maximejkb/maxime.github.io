@@ -1,5 +1,5 @@
 var lineNum = 0;
-var noPrompt = [6, 8];
+var noPrompt = [6, 8, 10];
 var text = [
     "sophomore at the university of california, berkeley",
     "pursuing a b.a. in computer science with a minor in creative writing",
@@ -7,16 +7,20 @@ var text = [
     "2017 national youngarts foundation finalist in writing (emphasis on short fiction)",
     "published author and essayist (work appears in glimmer train literary journal)",
     "for course in coursework: print(course)",
-    "`math 54: linear algebra and differential equations <br>" +
+    "`math 54: linear algebra and differential equations <br\>" +
     "cs61a: structure and interpretation of computer programs <br\> " +
-    "cs61b: data structures <br> " +
-    "cs61c: computer architectures and machine structures <br> " +
-    "cs70: discrete math and probability theory <br> " +
-    "cs170: efficient algorithms and intractable problems <br>" +
+    "cs61b: data structures <br\> " +
+    "cs61c: computer architectures and machine structures <br\> " +
+    "cs70: discrete math and probability theory <br\> " +
+    "cs170: efficient algorithms and intractable problems <br\>" +
     "cs370: introduction to teaching computer science`",
     "experience:",
-    "`{'cs370' : {'position': 'peer tutor', 'start_time': 'August 2018', 'end_time': 'December 2018'}, <br>" +
-    "'dahlia lights': {'position': 'software developer intern', 'start_time': 'May 2018', 'end_time': 'August 2018'}}`"
+    "`{'cs370' : {'position': 'peer tutor', 'start_time': 'August 2018', 'end_time': 'December 2018'}, <br\>" +
+    "'dahlia lights': {'position': 'software developer intern', 'start_time': 'May 2018', 'end_time': 'August 2018'}}`",
+    "for link in moreDetails: print(link)",
+    "`<a href=\"coursework.html\">Coursework</a> <br\>" +
+    " <a href=\"experience.html\">Experience</a> <br\>" +
+    " <a href=\"writing.html\">Writing</a>`"
 ];
 var idle = false;
 
