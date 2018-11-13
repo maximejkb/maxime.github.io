@@ -6,7 +6,7 @@ var text = [
     "software developer experienced in python, java, sql, and c",
     "2017 national youngarts foundation finalist in writing (emphasis on short fiction)",
     "published author and essayist (work appears in glimmer train literary journal)",
-    "for course in coursework: print(course)",
+    "for course in coursesBrief: print(course)",
     "`math 54: linear algebra and differential equations <br\>" +
     "cs61a: structure and interpretation of computer programs <br\> " +
     "cs61b: data structures <br\> " +
@@ -14,7 +14,7 @@ var text = [
     "cs70: discrete math and probability theory <br\> " +
     "cs170: efficient algorithms and intractable problems <br\>" +
     "cs370: introduction to teaching computer science`",
-    "experience",
+    "experienceBrief",
     "`{'cs370' : {'position': 'peer tutor', 'start_time': 'August 2018', 'end_time': 'December 2018'}, <br\>" +
     "'dahlia lights': {'position': 'software developer intern', 'start_time': 'May 2018', 'end_time': 'August 2018'}}`",
     "headshot",
