@@ -23,7 +23,8 @@ var text = [
     "for link in moreDetails: print(link)",
     "`<a href=\"coursework.html\">Coursework</a> <br\>" +
     " <a href=\"experience.html\">Experience</a> <br\>" +
-    " <a href=\"writing.html\">Writing</a>`"
+    " <a href=\"writing.html\">Writing</a> <br\>" +
+    " <a href=\"contact.html\">Contact</a>`"
 
 ];
 var idle = false;
