@@ -1,5 +1,5 @@
 var lineNum = 0;
-var noPrompt = [6, 8, 10];
+var noPrompt = [6, 8, 10, 12];
 var text = [
     "sophomore at the university of california, berkeley",
     "pursuing a b.a. in computer science with a minor in creative writing",
@@ -17,10 +17,13 @@ var text = [
     "experience:",
     "`{'cs370' : {'position': 'peer tutor', 'start_time': 'August 2018', 'end_time': 'December 2018'}, <br\>" +
     "'dahlia lights': {'position': 'software developer intern', 'start_time': 'May 2018', 'end_time': 'August 2018'}}`",
+    "headshot",
+    ":)",
     "for link in moreDetails: print(link)",
     "`<a href=\"coursework.html\">Coursework</a> <br\>" +
     " <a href=\"experience.html\">Experience</a> <br\>" +
     " <a href=\"writing.html\">Writing</a>`"
+
 ];
 var idle = false;
 

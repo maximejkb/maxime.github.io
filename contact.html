@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Coursework</title>
+    <title>Contact</title>
 </head>
 <body>
 <div id="container">
@@ -31,7 +31,7 @@
         }
     </style>
 
-    <h1>:<a href="index.html"><h1>~</h1></a> maximejkb$ python3 -i coursework.py </h1>
+    <h1>:<a href="index.html"><h1>~</h1></a> maximejkb$ python3 -i contact.py </h1>
 
     <br>
     <br>
@@ -53,33 +53,27 @@
 
     <p id="helper"> # click the squiggly (~) to go home </p>
 </div>
+</body>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 <script>
     var ready = false;
+
     new Typed(".prompt",
-        { strings: ["for courseName in courses: print(\"{}: {} - {}\".format(courseName, " +
-            "courses[courseName]['description'], courses[courseName]['term']))"],
+        { strings: ["for field in contact: print(\"{}: {}\".format(field, contact[field]))"],
             typeSpeed: 10,
             onComplete: () => { ready = true; }
         });
+
 
     document.addEventListener('keypress', function(e) {
         if (e.key === 'Enter' && ready) {
             document.querySelectorAll(".typed-cursor")[0].remove();
             new Typed(".output",
-                { strings: ["`<strong>cs61a</strong>: structure and interpretation of computer programs - fa17 <br> " +
-                    "<strong>math 54</strong>: linear algebra and differential equations - fa17 <br>" +
-                    "<strong>english 180h</strong>: short story - fa17 <br>" +
-                    "<strong>cs 61b</strong>: data structures - sp18 <br>" +
-                    "<strong>cs 70</strong>: discrete math and probability theory - sp18 <br>" +
-                    "<strong>english 143a</strong>: short fiction - sp18 <br>" +
-                    "<strong>cs 170</strong>: efficient algorithms and intractable problems - fa18 <br>" +
-                    "<strong>cs 61c</strong>: computer architectures and machine structures - fa18 <br>" +
-                    "<strong>cs 370</strong>: introduction to teaching computer science - fa18 <br>" +
-                    "<strong>cs 188</strong>: introduction to artificial intelligence - sp19 <br>" +
-                    "<strong>eecs 127</strong>: optimization models in engineering - sp19 <br>" +
-                    "<strong>math 53</strong>: multivariable calculus - sp19 <br>" +
-                    ">>> `"],
+                { strings: ["`<strong>email1</strong>: maximejkb@berkeley.edu <br> " +
+                    "<strong>email2</strong>: maxime.jkb@gmail.com <br>" +
+                    "<strong>phone</strong>: 415-444-6289 <br>" +
+                    "<strong>linkedin</strong>: <a href='https://www.linkedin.com/in/maxime-kawawa-beaudan-50788813b/'>here</a> <br>" +
+                    "<strong>github</strong>: <a href='https://github.com/maximejkb'>here</a> <br> >>> `"],
                     typeSpeed: 10
                 });
             // Don't let it run more than once.
@@ -87,5 +81,4 @@
         }
     });
 </script>
-</body>
 </html>
