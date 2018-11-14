@@ -52,7 +52,7 @@ var newPrompt = function() {
 
 // Type out the header message -- initializing the 'Python REPL'.
 var options = {
-    strings: ["python3 -i resume.py"],
+    strings: ["python3 -i profile.py"],
     typeSpeed: 40,
     onComplete: () => {
         // Unlock after the initial resume text.

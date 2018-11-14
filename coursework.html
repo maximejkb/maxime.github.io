@@ -14,6 +14,9 @@
             margin: auto;
             margin-top: 20%;
         }
+        p {
+            display: inline;
+        }
         a {
             color: inherit;
             text-decoration: none;
@@ -23,11 +26,36 @@
         h1 {
             display: inline;
         }
-        p {
-            display: inline;
-        }
         #helper {
             color: gray;
+        }
+        /* Medium devices (tablets, 768px and up) */
+        @media (max-width: 990px) {
+            p {
+                font-size:1.7rem;
+            }
+            .output>a {
+                font-size:1.7rem;
+            }
+            #links>* {
+                font-size:1.7rem;
+            }
+            #container {
+                width: 60%;
+            }
+        }
+
+        /* Large devices (desktops, 992px and up) */
+        @media (min-width: 990px) {
+            p {
+                font-size:1rem;
+            }
+            #links>* {
+                font-size:1rem;
+            }
+            #container {
+                width: 40%;
+            }
         }
     </style>
 
@@ -43,10 +71,12 @@
     <br>
     <br>
 
+    <div id="links">
     <a href="coursework.html">Coursework</a> <strong>//</strong>
     <a href="experience.html">Experience</a> <strong>//</strong>
     <a href="writing.html">Writing</a> <strong>//</strong>
     <a href="contact.html">Contact</a>
+    </div>
 
     <br>
     <br>
