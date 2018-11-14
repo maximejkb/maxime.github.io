@@ -3,32 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" type="text/css" href="secondaryPages.css">
+    <link rel="stylesheet" type="text/css" href="primaryPages.css">
     <title>Writing</title>
 </head>
 <body>
 <div id="container">
-    <h1>:<a href="index.html"><h1>~</h1></a> maximejkb$ python3 writing.py </h1>
+    <a href="index.html">
+        <h1>:~ maximejkb$ python3 -i writing.py</h1>
+    </a>
 
     <br>
     <br>
 
-    <p>Nothing here yet! Stay tuned.</p>
+    <div id="outputText">
+        >>> <p class="prompt"></p>
+        <br>
+        <!--<p class=""></p>-->
+    </div>
 
-    <br>
     <br>
 
     <div id="links">
-    <a href="coursework.html">Coursework</a> <strong>//</strong>
-    <a href="experience.html">Experience</a> <strong>//</strong>
-    <a href="writing.html">Writing</a> <strong>//</strong>
-    <a href="contact.html">Contact</a>
+        <a href="coursework.html">Coursework</a> <strong>//</strong>
+        <a href="experience.html">Experience</a> <strong>//</strong>
+        <a href="writing.html">Writing</a> <strong>//</strong>
+        <a href="contact.html">Contact</a>
     </div>
 
     <br>
     <br>
 
-    <p id="helper"> # click the tilde (~) to go home </p>
+    <p id="helper"> # goal: one clipping/week. if no new clipping on a given week, feel free to throw things
+        at me (or express annoyance in another way) <br> # click the tilde (~) to go home </p>
 </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script src="./writings.js"></script>
 </body>
 </html>

@@ -1,37 +1,17 @@
 var lineNum = 0;
-var noPrompt = [6, 8, 10, 12];
+var noPrompt = [2, 4];
 var text = [
-    "sophomore at the university of california, berkeley",
-    "pursuing a b.a. in computer science with a minor in creative writing",
-    "software developer experienced in python, java, sql, and c",
     "2017 national youngarts foundation finalist in writing (emphasis on short fiction)",
-    "published author and essayist (work appears in glimmer train literary journal)",
-    "for course in coursesBrief: print(course)",
-    "`math 54: linear algebra and differential equations <br\>" +
-    "cs61a: structure and interpretation of computer programs <br\> " +
-    "cs61b: data structures <br\> " +
-    "cs61c: computer architectures and machine structures <br\> " +
-    "cs70: discrete math and probability theory <br\> " +
-    "cs170: efficient algorithms and intractable problems <br\>" +
-    "cs370: introduction to teaching computer science`",
-    "experienceBrief",
-    "`{'cs370' : {'position': 'peer tutor', 'start_time': 'august 2018', 'end_time': 'december 2018'}, <br\>" +
-    "'dahlia lights': {'position': 'software developer intern', 'start_time': 'may 2018', 'end_time': 'august 2018'}}`",
-    "headshot",
-    "`:) <br>" +
-    "(artist's rendering)`",
-    "for link in moreDetails: print(link)",
-    "`<a href=\"coursework.html\">Coursework</a> <br\>" +
-    " <a href=\"experience.html\">Experience</a> <br\>" +
-    " <a href=\"writing.html\">Writing</a> <br\>" +
-    " <a href=\"contact.html\">Contact</a>`"
-
+    "for piece in publications: print('{0}, {1}: {2} - {3}'.format(piece.publication, piece.date, piece.title, piece.link))",
+    "`glimmer train, august 2018: waiting for fireworks - <a href='http://www.glimmertrain.com/pages/gts_single_issues.php'>issue 103</a> <br\>" +
+    "glimmer train, january 2018: a constitution for a young artist - <a href='http://www.glimmertrain.com/bulletins/essays/b132beaudan.php'>essay</a>`",
+    "for clipping in notebook: print('{0}, {1}'.format(clipping.link, clipping.date))",
+    "`<a href=\"./clippings/beginning.html\">beginning</a>, november 13`"
 ];
-var idle = false;
 
 var newPrompt = function() {
     // Remove the Typed tag from the previous element.
-    var resumeLines = document.getElementsByClassName("resumeText");
+    var resumeLines = document.getElementsByClassName("writingText");
     for (var i = 0; i < resumeLines.length; i++) {
         resumeLines[i].removeAttribute("class");
     }
@@ -49,17 +29,6 @@ var newPrompt = function() {
         output.appendChild(cursor);
     }
 };
-
-// Type out the header message -- initializing the 'Python REPL'.
-var options = {
-    strings: ["python3 -i profile.py"],
-    typeSpeed: 40,
-    onComplete: () => {
-        // Unlock after the initial resume text.
-        idle = true;
-    }
-};
-new Typed(".commandLine", options);
 
 var onInteract = function(e) {
     if (((e.type === 'keypress' && e.key === 'Enter') || e.type === 'touchstart') && idle) {
@@ -79,14 +48,20 @@ var onInteract = function(e) {
         }
         // Create a new bullet point.
         var line = document.createElement("P");
-        line.setAttribute("class", "resumeText");
+        line.setAttribute("class", "writingText");
         var output = document.getElementById("outputText");
         output.appendChild(line);
 
+        var currentText;
+        if (text[lineNum].constructor === Array) {
+            currentText = text[lineNum];
+        } else {
+            currentText = [text[lineNum]];
+        }
 
-        new Typed(".resumeText",
+        new Typed(".writingText",
             {
-                strings: [text[lineNum]],
+                strings: currentText,
                 typeSpeed: 10,
                 onComplete: () => {
                     newPrompt();
@@ -102,3 +77,11 @@ var onInteract = function(e) {
 
 document.addEventListener('keypress', onInteract, false);
 document.addEventListener('touchstart', onInteract, false);
+
+var idle = false;
+
+new Typed(".prompt",
+    { strings: ["writer", "aspiring writer", "minoring in creative writing"],
+        typeSpeed: 10,
+        onComplete: () => { idle = true; }
+    });

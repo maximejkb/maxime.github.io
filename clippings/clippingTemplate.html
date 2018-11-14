@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../secondaryPages.css">
+    <title>CLIPPING TITLE</title>
+</head>
+<body>
+<div id="container">
+    <h1>:<a href="../index.html"><h1>~</h1></a> maximejkb$ python3 -i CLIPPING TITLE.py </h1>
+
+    <br>
+    <br>
+
+    <p>>>> </p><p class="prompt"></p>
+    <br>
+    <p class="output"></p>
+
+    <br>
+    <br>
+
+    <div id="links">
+        <a href="../coursework.html">Coursework</a> <strong>//</strong>
+        <a href="../experience.html">Experience</a> <strong>//</strong>
+        <a href="../writing.html">Writing</a> <strong>//</strong>
+        <a href="../contact.html">Contact</a>
+    </div>
+
+    <br>
+    <br>
+
+    <p id="helper"> # click the tilde (~) to go home </p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script>
+    var ready = false;
+    new Typed(".prompt",
+        { strings: ["print(text)"],
+            typeSpeed: 10,
+            onComplete: () => { ready = true; }
+        });
+
+    var onInteract = function(e) {
+        if (((e.type === 'keypress' && e.key === 'Enter') || e.type === 'touchstart') && ready) {
+            document.querySelectorAll(".typed-cursor")[0].remove();
+            new Typed(".output",
+                { strings: ["`CLIPPING TEXT <br> >>> `"],
+                    typeSpeed: 10
+                });
+            // Don't let it run more than once.
+            ready = false;
+        }
+    };
+
+    document.addEventListener('keypress', onInteract);
+    document.addEventListener('touchstart', onInteract);
+</script>
+</body>
+</html>
