@@ -6,7 +6,8 @@ var text = [
     "`glimmer train, august 2018: waiting for fireworks - <a href='http://www.glimmertrain.com/pages/gts_single_issues.php'>issue 103</a> <br\>" +
     "glimmer train, january 2018: a constitution for a young artist - <a href='http://www.glimmertrain.com/bulletins/essays/b132beaudan.php'>essay</a>`",
     "for clipping in notebook: print('{0}, {1}'.format(clipping.link, clipping.date))",
-    "`<a href=\"./clippings/beginning.html\">beginning</a>, november 13`"
+    "`<a href=\"./clippings/beginning.html\">beginning</a>, november 13 <br>" +
+    "<a href=\"./clippings/maze.html\">maze</a>, november 18`"
 ];
 
 var newPrompt = function() {
