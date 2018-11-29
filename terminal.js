@@ -15,7 +15,8 @@ var text = [
     "cs170: efficient algorithms and intractable problems <br\>" +
     "cs370: introduction to teaching computer science`",
     "experienceBrief",
-    "`{'cs370' : {'position': 'peer tutor', 'start_time': 'august 2018', 'end_time': 'december 2018'}, <br\>" +
+    "`{'salesforce' : {'position': 'software developer intern', 'start_time': 'may 2019', 'end_time': 'august 2019'}, <br>" +
+    "{'cs370' : {'position': 'peer tutor', 'start_time': 'august 2018', 'end_time': 'december 2018'}, <br\>" +
     "'dahlia lights': {'position': 'software developer intern', 'start_time': 'may 2018', 'end_time': 'august 2018'}}`",
     "headshot",
     "`:) <br>" +
