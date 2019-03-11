@@ -15,7 +15,7 @@ var text = [
     "cs170: efficient algorithms and intractable problems <br\>" +
     "cs370: introduction to teaching computer science <br\>" + 
     "cs188: introduction to artificial intelligence<br\>" +
-    "eecs127: optimization models in engineering<br\>",            
+    "eecs127: optimization models in engineering`",            
     "experienceBrief",
     "`{'salesforce' : {'position': 'software developer intern', 'start_time': 'may 2019', 'end_time': 'august 2019'}, <br>" +
     "{'cs370' : {'position': 'peer tutor', 'start_time': 'august 2018', 'end_time': 'december 2018'}, <br\>" +
