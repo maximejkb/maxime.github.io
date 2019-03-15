@@ -4,7 +4,7 @@ var text = [
     "`glimmer train, august 2018: waiting for fireworks - <a href='http://www.glimmertrain.com/pages/gts_single_issues.php'>issue 103</a> <br\>" +
     "glimmer train, january 2018: a constitution for a young artist - <a href='http://www.glimmertrain.com/bulletins/essays/b132beaudan.php'>essay</a>`",
     ["while novel.status != 'complete': work(novel)", "novel.status = 'in progress'"],
-    "for program in notebook: print('{0}, {1}'.format(clipping.link, clipping.date))",
+    "for program in notebook: print('{0}, {1}'.format(program.link, program.date))",
     "`<a href=\"./clippings/maze.html\">maze</a>, november 18 <br>" + 
     "<a href=\"https://maximejkb.github.io/graphs/\">graphs</a>, may 13`"
 ];
