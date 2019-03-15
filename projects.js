@@ -6,6 +6,7 @@ var text = [
     ["while novel.status != 'complete': work(novel)", "novel.status = 'in progress'"],
     "for program in notebook: print('{0}, {1}'.format(program.link, program.date))",
     "`<a href=\"./clippings/maze.html\">maze</a>, november 18 <br>" + 
+    "<a href=\"./clippings/structures.html\">data structures</a>, may 13 <br>" + 
     "<a href=\"https://maximejkb.github.io/graphs/\">graphs</a>, may 13`",
     "for project in coursework[favorites]: print('{0}: {1} - {2}'.format(project.title, project.brief, project.description_link)) # can't publish solutions to academic projects, can only link project specifications",
     "`<p style='text-decoration:underline'>reinforcement learning</p>: implementing value iteration and q-learning for pacman/crawler agents - <a href=\"https://inst.eecs.berkeley.edu/~cs188/sp19/project3.html\">spec</a> <br>" + 
