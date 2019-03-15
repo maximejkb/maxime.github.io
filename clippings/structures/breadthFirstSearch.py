@@ -1,3 +1,5 @@
+# Author: Maxime Kawawa-Beaudan (maximejkb@berkeley.edu)
+
 from graph import Graph
 
 def bfs(G: Graph, source, visitor: callable):

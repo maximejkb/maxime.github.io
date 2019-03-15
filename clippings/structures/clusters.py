@@ -1,3 +1,5 @@
+# Author: Maxime Kawawa-Beaudan (maximejkb@berkeley.edu)
+
 import random
 import math
 

@@ -1,3 +1,5 @@
+# Author: Maxime Kawawa-Beaudan (maximejkb@berkeley.edu)
+
 class SetNode:
     def __init__(self, value, parent=None):
         self.value = value

@@ -1,3 +1,5 @@
+# Author: Maxime Kawawa-Beaudan (maximejkb@berkeley.edu)
+
 class BinaryTree:
     def __init__(self, value, left=None, right=None):
         self.value = value
@@ -51,4 +53,3 @@ class BinaryTree:
                 self.left.insert(value)
             else:
                 self.left = BinaryTree(value)
-

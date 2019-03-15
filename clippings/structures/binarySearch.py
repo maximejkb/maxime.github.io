@@ -1,3 +1,5 @@
+# Author: Maxime Kawawa-Beaudan (maximejkb@berkeley.edu)
+
 def binarySearch(A, target):
     # Takes in a sorted list.
     if not A:
@@ -44,7 +46,3 @@ if __name__ == "__main__":
         if actual != expected:
             print("Expected does not match actual: input: {0}, target: {1}, "
                   "actual: {2}, expected: {3}.".format(A, target, actual, expected))
-
-
-
-

@@ -1,3 +1,5 @@
+# Author: Maxime Kawawa-Beaudan (maximejkb@berkeley.edu)
+
 class Graph:
     def __init__(self, V=None, E=None):
         # Adjacency list implementation.
@@ -43,5 +45,3 @@ if __name__ == "__main__":
         u, v, w = e
         if v not in g.neighbors(u):
             print("Expected an edge between {0} and {1}.".format(u, v))
-
-

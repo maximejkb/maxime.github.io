@@ -1,3 +1,5 @@
+# Author: Maxime Kawawa-Beaudan (maximejkb@berkeley.edu)
+
 from graph import Graph
 
 def dfsIterative(G: Graph, source, visitor: callable):
@@ -60,5 +62,3 @@ if __name__ == "__main__":
     pre, post = dfs(g, lambda v: print(v), 0)
     print(pre)
     print(post)
-
-

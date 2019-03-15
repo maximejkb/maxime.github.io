@@ -1,3 +1,5 @@
+# Author: Maxime Kawawa-Beaudan (maximejkb@berkeley.edu)
+
 import sys
 from graph import Graph
 from priorityQueue import PriorityQueue

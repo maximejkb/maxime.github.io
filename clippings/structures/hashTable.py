@@ -1,3 +1,5 @@
+# Author: Maxime Kawawa-Beaudan (maximejkb@berkeley.edu)
+
 class HashTable:
     RESIZE_THRESHOLD = 10
 

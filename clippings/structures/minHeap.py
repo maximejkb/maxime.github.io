@@ -1,3 +1,5 @@
+# Author: Maxime Kawawa-Beaudan (maximejkb@berkeley.edu)
+
 class MinHeap:
     def __init__(self):
         self.tree = []
@@ -94,4 +96,3 @@ if __name__ == "__main__":
         if previous > current:
             print("An entry popped out of order after updates.")
         previous = current
-

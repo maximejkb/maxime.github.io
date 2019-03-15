@@ -1,3 +1,5 @@
+# Author: Maxime Kawawa-Beaudan (maximejkb@berkeley.edu)
+
 def merge(a1, a2):
     merged = []
     while a1 and a2:
