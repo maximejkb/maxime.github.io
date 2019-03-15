@@ -1,12 +1,24 @@
 var lineNum = 0;
-var noPrompt = [0, 3];
+var noPrompt = [0, 3, 5];
 var text = [
     "`glimmer train, august 2018: waiting for fireworks - <a href='http://www.glimmertrain.com/pages/gts_single_issues.php'>issue 103</a> <br\>" +
     "glimmer train, january 2018: a constitution for a young artist - <a href='http://www.glimmertrain.com/bulletins/essays/b132beaudan.php'>essay</a>`",
     ["while novel.status != 'complete': work(novel)", "novel.status = 'in progress'"],
     "for program in notebook: print('{0}, {1}'.format(program.link, program.date))",
     "`<a href=\"./clippings/maze.html\">maze</a>, november 18 <br>" + 
-    "<a href=\"https://maximejkb.github.io/graphs/\">graphs</a>, may 13`"
+    "<a href=\"https://maximejkb.github.io/graphs/\">graphs</a>, may 13`",
+    "for project in coursework[favorites]: print('{0}: {1} - {2}'.format(project.title, project.brief, project.description_link)) # can't publish solutions to academic projects, can only link project specifications",
+    "`<p style='text-decoration:underline'>reinforcement learning</p>: implementing value iteration and q-learning for pacman/crawler agents - <a href=\"https://inst.eecs.berkeley.edu/~cs188/sp19/project3.html\">spec</a> <br>" + 
+    "<p style='text-decoration:underline'>cpu</p>: building a 32-bit, 2-stage pipelined risc-v cpu in logisim - <a href='http://inst.eecs.berkeley.edu/~cs61c/fa18/projs/03-2/'>spec</a> <br>" + 
+    "<p style='text-decoration:underline'>alu</p>: building a 32-bit alu and reg-file in logisim - <a href='http://inst.eecs.berkeley.edu/~cs61c/fa18/projs/03-1/'>spec</a> <br>" +
+    "<p style='text-decoration:underline'>depth maps</p>: building depth maps from stereo images - <a href='http://inst.eecs.berkeley.edu/~cs61c/fa18/projs/01/'>spec</a> <br>" +
+    "<p style='text-decoration:underline'>subset compatibility</p>: designing and implementing an approximation algorithm for an np-complete problem (breaking a graph into k compatible subsets of size no more than s [compatibility defined in spec]) - <a href='https://d1b10bmlvqabco.cloudfront.net/attach/jhadltur59wtu/idril7rumak4d3/jocsqsxf370/CS_170_FA18_Project_Spec.pdf'>spec</a> <br>" +
+    "<p style='text-decoration:underline'>bear maps</p>: implementing image stitching and a* search to build a simplified version of google maps for the berkeley area - <a href='https://sp18.datastructur.es/materials/proj/proj3/proj3'>spec</a> <br>" +
+    "<p style='text-decoration:underline'>percolation</p>: using disjoint sets to model percolation via monte carlo simulation - <a href='https://sp18.datastructur.es/materials/hw/hw2/hw2'>spec</a> <br>" +
+    "<p style='text-decoration:underline'>game</p>: designing and implementing a crawler game with random world generation - <a href='https://sp18.datastructur.es/materials/proj/proj2/proj2'>spec</a> <br>" +
+    "<p style='text-decoration:underline'>nbody</p>: physics simulator (introductory) - <a href='https://sp18.datastructur.es/materials/proj/proj0/proj0'>spec</a>  <br>" +
+    "<p style='text-decoration:underline'>scheme</p>: implementing an interpreter for the scheme programming language - <a href='http://inst.eecs.berkeley.edu/~cs61a/fa17/proj/scheme/'>spec</a>" +
+    "`"
 ];
 
 var newPrompt = function() {
