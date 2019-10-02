@@ -1,9 +1,9 @@
 var lineNum = 0;
 var noPrompt = [6, 8, 10, 12];
 var text = [
-    "sophomore at the university of california, berkeley",
+    "junior at the university of california, berkeley",
     "pursuing a b.a. in computer science with a minor in creative writing",
-    "software developer experienced in python, java, sql, and c",
+    "software developer experienced in python, java, sql, scala, and c",
     "2017 national youngarts foundation finalist in writing (emphasis on short fiction)",
     "published author and essayist (work appears in glimmer train literary journal)",
     "for course in coursesBrief: print(course)",
@@ -15,6 +15,7 @@ var text = [
     "cs170: efficient algorithms and intractable problems <br\>" +
     "cs370: introduction to teaching computer science <br\>" + 
     "cs188: introduction to artificial intelligence<br\>" +
+    "cs189: introduction to machine learning<br/>" + 
     "eecs127: optimization models in engineering`",            
     "experienceBrief",
     "`{'salesforce' : {'position': 'software developer intern', 'start_time': 'may 2019', 'end_time': 'august 2019'}, <br>" +
