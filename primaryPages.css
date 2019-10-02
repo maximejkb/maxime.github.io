@@ -2,7 +2,24 @@
     width: 40%;
     height: 60%;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 200%;
+    margin-bottom: 25%;
+}
+.math {
+    width:100%;
+    position:absolute;
+}
+#math1 {
+    top:0px;
+}
+#math2 {
+    top:50%;
+}
+#math3 {
+    top:100%;
+}
+#math4 {
+    top:200%;
 }
 a {
     color: inherit;
@@ -47,6 +64,8 @@ p {
     }
     #container {
         width: 80%;
+        margin-top: 250%;
+        margin-bottom: 25%;
     }
     .typed-cursor {
         font-size:2rem;

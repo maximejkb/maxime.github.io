@@ -6,6 +6,10 @@
     <link rel="stylesheet" type="text/css" href="primaryPages.css">
     <title>Maxime Kawawa-Beaudan</title>
 </head>
+<img src='./math/hw4_Page_10_masked.png' class="math" id="math1" data-rellax-speed="-4">
+<img src='./math/hw4_Page_06_masked.png' class="math" id="math2" data-rellax-speed="0">
+<img src='./math/hw4_Page_05_masked.png' class="math" id="math3" data-rellax-speed="4">
+<img src='./math/hw4_Page_01_masked.png' class="math" id="math4" data-rellax-speed="8"> 
 <body>
 <div id="container">
     <a href="index.html">
@@ -37,6 +41,14 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script src="./rellax.min.js"></script>
+<script>
+  var rellax = new Rellax('.math');
+</script>
 <script src="./terminal.js"></script>
+<script src="./zenscroll-min.js"></script>
+<script>
+    zenscroll.center(document.getElementById("container"), 3000)
+</script>
 </body>
 </html>
