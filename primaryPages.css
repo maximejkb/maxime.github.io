@@ -6,20 +6,38 @@
     margin-bottom: 25%;
 }
 .math {
-    width:100%;
     position:absolute;
 }
 #math1 {
     top:0px;
+    width:100%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
 }
 #math2 {
     top:50%;
+    width:90%;
+    height:auto;
+    opacity: 0.90;
+    margin-left:auto;
+    margin-right:auto;
 }
 #math3 {
-    top:100%;
+    top:75%;
+    width:80%;
+    height:auto;
+    opacity: 0.80;
+    margin-left:auto;
+    margin-right:auto;
 }
 #math4 {
-    top:200%;
+    top:100%;
+    width:70%;
+    height:auto;
+    opacity: 0.70;
+    margin-left:auto;
+    margin-right:auto;
 }
 a {
     color: inherit;
@@ -69,15 +87,34 @@ p {
     }
     #math1 {
         top:0px;
+        width:100%;
+        height:auto;
+        margin-left:auto;
+        margin-right:auto;
     }
     #math2 {
         top:25%;
+        width:90%;
+        height:auto;
+        opacity: 0.90;
+        margin-left:auto;
+        margin-right:auto;
     }
     #math3 {
         top:50%;
+        width:80%;
+        height:auto;
+        opacity: 0.80;
+        margin-left:auto;
+        margin-right:auto;
     }
     #math4 {
-        top:100%;
+        top:75%;
+        width:70%;
+        height:auto;
+        opacity: 0.70;
+        margin-left:auto;
+        margin-right:auto;
     }
     .typed-cursor {
         font-size:2rem;
