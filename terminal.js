@@ -25,7 +25,8 @@ var text = [
     "`:) <br>" +
     "(artist's rendering)`",
     "for link in moreDetails: print(link)",
-    "`<a href=\"coursework.html\">Coursework</a> <br\>" +
+    "`<a href='./v7-resume.pdf'>Resume</a> <br/>" +
+    "<a href=\"coursework.html\">Coursework</a> <br\>" +
     " <a href=\"experience.html\">Experience</a> <br\>" +
     " <a href=\"writing.html\">Writing</a> <br\>" +
     " <a href=\"contact.html\">Contact</a>`"
