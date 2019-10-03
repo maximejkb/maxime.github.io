@@ -1,7 +1,10 @@
 var lineNum = 0;
 var noPrompt = [0, 2, 4];
 var text = [
-    "`<a href='./notebook/culture.html'> <strong> cs culture at berkeley </strong> </a> - october 3, 2019`"
+    "`<a href='../html/culture.html'>cs culture at berkeley</a> - october 3, 2019 <br>" + 
+    "<a href='../html/maze.html'>maze</a> - november 18, 2018 <br>" +
+    "<a href='../html/structures.html'>data structures</a> - september 20, 2018 <br>" + 
+    "<a href='https://maximejkb.github.io/graphs/'>graphs</a> - may 13, 2018`",
 ];
 
 var newPrompt = function() {

@@ -1,12 +1,8 @@
 var lineNum = 0;
-var noPrompt = [0, 2, 4];
+var noPrompt = [0, 2];
 var text = [
     "`glimmer train, august 2018: waiting for fireworks - <a href='http://www.glimmertrain.com/pages/gts_single_issues.php'>issue 103</a> <br\>" +
     "glimmer train, january 2018: a constitution for a young artist - <a href='http://www.glimmertrain.com/bulletins/essays/b132beaudan.php'>essay</a>`",
-    "for program in notebook: print('{0}, {1}'.format(program.link, program.date))",
-    "`<a href=\"./clippings/maze.html\">maze</a>, november 18, 2018 <br>" +
-    "<a href=\"./clippings/structures.html\">data structures</a>, september 20, 2018 <br>" + 
-    "<a href=\"https://maximejkb.github.io/graphs/\">graphs</a>, may 13, 2018`",
     "for project in coursework[favorites]: print('{0}: {1} - {2}'.format(project.title, project.brief, project.description_link)) # can't publish solutions to academic projects, can only link project specifications",
     "`<p style='text-decoration:underline'>reinforcement learning</p>: implementing value iteration and q-learning for pacman/crawler agents - <a href=\"https://inst.eecs.berkeley.edu/~cs188/sp19/project3.html\">spec</a> <br>" +
     "<p style='text-decoration:underline'>cpu</p>: building a 32-bit, 2-stage pipelined risc-v cpu in logisim - <a href='http://inst.eecs.berkeley.edu/~cs61c/fa18/projs/03-2/'>spec</a> <br>" +
