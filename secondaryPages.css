@@ -4,6 +4,9 @@
     margin: auto;
     margin-top: 20%;
 }
+.article {
+    /* position: absolute; */
+}
 a {
     color: inherit;
     text-decoration: none;
