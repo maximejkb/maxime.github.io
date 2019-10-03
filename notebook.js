@@ -78,7 +78,7 @@ document.addEventListener('touchstart', onInteract, false);
 var idle = false;
 
 new Typed(".prompt",
-    { strings: ["for entry in notebook: print('{0}, {1}: {2} - {3}'.format(entry.title, entry.date))"],
+    { strings: ["for entry in notebook: print('{0} - {1}'.format(entry.title, entry.date))"],
         typeSpeed: 10,
         onComplete: () => { idle = true; }
     });
