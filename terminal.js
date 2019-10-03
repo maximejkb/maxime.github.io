@@ -22,8 +22,7 @@ var text = [
     "{'cs370' : {'position': 'peer tutor', 'start_time': 'august 2018', 'end_time': 'december 2018'}, <br\>" +
     "'dahlia lights': {'position': 'software developer intern', 'start_time': 'may 2018', 'end_time': 'august 2018'}}`",
     "headshot",
-    "`:) <br>" +
-    "(artist's rendering)`",
+    "<img src='./casual.jpg'/ width='60%'>",
     "for link in moreDetails: print(link)",
     "`<a href='./v7-resume.pdf'>Resume</a> <br/>" +
     "<a href=\"coursework.html\">Coursework</a> <br\>" +
