@@ -8,10 +8,10 @@
 </head>
 <body>
 
-<img src='resources/math/hw4_Page_10_masked.png' class="math" id="math1" data-rellax-speed="8">
+<!-- <img src='resources/math/hw4_Page_10_masked.png' class="math" id="math1" data-rellax-speed="8" onload="logImage()">
 <img src='resources/math/hw4_Page_06_masked.png' class="math" id="math2" data-rellax-speed="4">
 <img src='resources/math/hw4_Page_05_masked.png' class="math" id="math3" data-rellax-speed="0">
-<img src='resources/math/hw4_Page_01_masked.png' class="math" id="math4" data-rellax-speed="-2"> 
+<img src='resources/math/hw4_Page_01_masked.png' class="math" id="math4" data-rellax-speed="-2">  -->
 
 <div id="container">
     <a href="index.html">
@@ -44,14 +44,35 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script src="js/zenscroll-min.js"></script>
 <script src="js/rellax.min.js"></script>
 <script>
-  var rellax = new Rellax('.math');
+    NUM_IMGS = 4
+    NUM_LOADED = 0
+
+    function allLoaded() {
+        document.body.append(this);
+        NUM_LOADED += 1;
+        if (NUM_LOADED === NUM_IMGS) {
+            var rellax = new Rellax('.math');
+            zenscroll.center(document.getElementById("container"), 4000)
+        }
+    };
+
+    function createMathImage(src, id, speed) {
+        var img = document.createElement("img");
+        img.src = src;
+        img.setAttribute("class", "math");
+        img.setAttribute("id", id);
+        img.setAttribute("data-rellax-speed", speed);
+        img.onload = allLoaded
+    }
+
+    createMathImage("resources/math/hw4_Page_10_masked.png", "math1", "8");
+    createMathImage("resources/math/hw4_Page_06_masked.png", "math2", "4");
+    createMathImage("resources/math/hw4_Page_05_masked.png", "math3", "0");
+    createMathImage("resources/math/hw4_Page_01_masked.png", "math4", "-2");
 </script>
 <script src="js/index.js"></script>
-<script src="js/zenscroll-min.js"></script>
-<script>
-    zenscroll.center(document.getElementById("container"), 4000)
-</script>
 </body>
 </html>

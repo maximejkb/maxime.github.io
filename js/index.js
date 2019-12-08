@@ -1,3 +1,7 @@
+// TODO: Implement a loading screen that clusters random points w/ EM or something
+// similar (or maybe just creates random shapes/fills with Gaussian noise) -- so that the 
+// images have loaded by the time ppl get on.
+
 var lineNum = 0;
 var noPrompt = [6, 8, 10, 12];
 var text = [
