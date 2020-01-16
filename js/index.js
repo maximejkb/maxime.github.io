@@ -32,7 +32,7 @@ var text = [
     "<a href='../html/coursework.html\'>Coursework</a> <br\>" +
     " <a href=\"../html/experience.html\">Experience</a> <br\>" +
     " <a href=\"../html/projects.html\">Projects</a> <br\>" +
-    "<a href='../html/notebook.html'>Notebook</a>'" 
+    "<a href='../html/notebook.html'>Notebook</a>`"
 ];
 var idle = false;
 
