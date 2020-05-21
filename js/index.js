@@ -1,11 +1,11 @@
 // TODO: Implement a loading screen that clusters random points w/ EM or something
-// similar (or maybe just creates random shapes/fills with Gaussian noise) -- so that the 
+// similar (or maybe just creates random shapes/fills with Gaussian noise) -- so that the
 // images have loaded by the time ppl get on.
 
 var lineNum = 0;
 var noPrompt = [6, 8, 10, 12];
 var text = [
-    "junior at the university of california, berkeley",
+    "senior at the university of california, berkeley",
     "pursuing a b.a. in computer science with a minor in creative writing",
     "software developer experienced in python, java, sql, scala, and c",
     "2017 national youngarts foundation finalist in writing (emphasis on short fiction)",
@@ -17,10 +17,12 @@ var text = [
     "cs61c: computer architectures and machine structures <br\> " +
     "cs70: discrete math and probability theory <br\> " +
     "cs170: efficient algorithms and intractable problems <br\>" +
-    "cs370: introduction to teaching computer science <br\>" + 
+    "cs370: introduction to teaching computer science <br\>" +
     "cs188: introduction to artificial intelligence<br\>" +
-    "cs189: introduction to machine learning<br/>" + 
-    "eecs127: optimization models in engineering`",            
+    "cs189: introduction to machine learning<br/>" +
+    "eecs127: optimization models in engineering<br/>" +
+    "eecs126: probability and random processes`",
+
     "experienceBrief",
     "`{'salesforce' : {'position': 'software developer intern', 'start_time': 'may 2019', 'end_time': 'august 2019'}, <br>" +
     "{'cs370' : {'position': 'peer tutor', 'start_time': 'august 2018', 'end_time': 'december 2018'}, <br\>" +
