@@ -28,13 +28,13 @@ var text = [
     "{'cs370' : {'position': 'peer tutor', 'start_time': 'august 2018', 'end_time': 'december 2018'}, <br\>" +
     "'dahlia lights': {'position': 'software developer intern', 'start_time': 'may 2018', 'end_time': 'august 2018'}}`",
     "headshot",
-    "<img src='../resources/casual.jpg'/ width='60%'>",
+    "<img src='resources/casual.jpg' width='60%'>",
     "for link in moreDetails: print(link)",
-    "`<a href='../resources/v7-resume.pdf'>Resume</a> <br/>" +
-    "<a href='../html/coursework.html\'>Coursework</a> <br\>" +
-    " <a href=\"../html/experience.html\">Experience</a> <br\>" +
-    " <a href=\"../html/projects.html\">Projects</a> <br\>" +
-    "<a href='../html/notebook.html'>Notebook</a>`"
+    "`<a href='resources/maxime-kawawa-beaudan-resume.pdf'>Resume</a> <br/>" +
+    "<a href='html/coursework.html\'>Coursework</a> <br\>" +
+    " <a href=\"html/experience.html\">Experience</a> <br\>" +
+    " <a href=\"html/projects.html\">Projects</a> <br\>" +
+    "<a href='html/notebook.html'>Notebook</a>`"
 ];
 var idle = false;
 
