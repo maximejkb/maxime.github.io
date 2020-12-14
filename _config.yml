@@ -22,8 +22,8 @@ title: notebook_0
 email: maximejkb@berkeley.edu
 description: >- # this means to ignore newlines until "baseurl:"
   a place to put some writing
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/maximejkb.github.io" # the subpath of your site, e.g. /blog
+url: "https://maximejkb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  maximejkb
 
 # Build settings
