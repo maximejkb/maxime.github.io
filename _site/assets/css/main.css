@@ -95,11 +95,11 @@ code.highlighter-rouge { background: white; font-family: courier, monospace; fon
 .highlight .il { color: #099; }
 
 /* eb-garamond-regular - latin */
-@font-face { font-family: 'EB Garamond'; font-style: normal; font-weight: 400; font-display: auto; src: url("http://localhost:4000/maximejkb.github.io/assets/fonts/eb-garamond-v9-latin-regular.eot");
+@font-face { font-family: 'EB Garamond'; font-style: normal; font-weight: 400; font-display: auto; src: url("http://localhost:4000/assets/fonts/eb-garamond-v9-latin-regular.eot");
   /* IE9 Compat Modes */
-src: local("EB Garamond Regular"), local("EBGaramond-Regular"), url("http://localhost:4000/maximejkb.github.io/assets/fonts/eb-garamond-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("http://localhost:4000/maximejkb.github.io/assets/fonts/eb-garamond-v9-latin-regular.woff2") format("woff2"), url("http://localhost:4000/maximejkb.github.io/assets/fonts/eb-garamond-v9-latin-regular.woff") format("woff"), url("http://localhost:4000/maximejkb.github.io/assets/fonts/eb-garamond-v9-latin-regular.ttf") format("truetype"), url("http://localhost:4000/maximejkb.github.io/assets/fonts/eb-garamond-v9-latin-regular.svg#EBGaramond") format("svg");
+src: local("EB Garamond Regular"), local("EBGaramond-Regular"), url("http://localhost:4000/assets/fonts/eb-garamond-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("http://localhost:4000/assets/fonts/eb-garamond-v9-latin-regular.woff2") format("woff2"), url("http://localhost:4000/assets/fonts/eb-garamond-v9-latin-regular.woff") format("woff"), url("http://localhost:4000/assets/fonts/eb-garamond-v9-latin-regular.ttf") format("truetype"), url("http://localhost:4000/assets/fonts/eb-garamond-v9-latin-regular.svg#EBGaramond") format("svg");
   /* Legacy iOS */ }
-body { background: #D2C9B2; color: #0b0404; font-family: "EB Garamond", Garamond, "Times New Roman", serif; font-size: 1.3125em; line-height: 1.5; }
+body { background: #f7f7f5; color: #0b0404; font-family: "EB Garamond", Garamond, "Times New Roman", serif; font-size: 1.3125em; line-height: 1.5; }
 
 h1 { font-size: 3em; margin: .5em auto; }
 
@@ -130,7 +130,7 @@ small { font-size: .75em; }
 
 p > cite { display: block; text-align: right; }
 
-hr { border: 0; height: 0; border: 0; display: block; width: 152px; height: 12px; margin: .5em auto 0; background: url(http://localhost:4000/maximejkb.github.io/assets/images/divider.svg) no-repeat top center; margin: 4em 0; }
+hr { border: 0; height: 0; border: 0; display: block; width: 152px; height: 12px; margin: .5em auto 0; background: url(http://localhost:4000/assets/images/divider.svg) no-repeat top center; margin: 4em 0; }
 
 img { display: flex; max-width: 100%; height: auto; margin: 2em auto; }
 
@@ -138,26 +138,26 @@ figure img { margin: 2em auto 1em; }
 
 figcaption { font-size: .875em; font-style: italic; text-align: center; margin-bottom: 2em; opacity: .7; }
 
-.divided::after { content: ""; border: 0; display: block; width: 152px; height: 12px; margin: .5em auto 0; background: url(http://localhost:4000/maximejkb.github.io/assets/images/divider.svg) no-repeat top center; }
+.divided::after { content: ""; border: 0; display: block; width: 152px; height: 12px; margin: .5em auto 0; background: url(http://localhost:4000/assets/images/divider.svg) no-repeat top center; }
 
 .home { max-width: 24em; margin: auto; padding: 4em 1em; }
 
 .content-title { font-size: 2em; margin-bottom: 2em; text-align: center; }
 
-.post-date { color: #64644B; display: block; font-size: .825em; white-space: nowrap; text-transform: uppercase; }
+.post-date { color: #4b5a64; display: block; font-size: .825em; white-space: nowrap; text-transform: uppercase; }
 .post-link .post-date { padding: .5em 0; }
 
 .site-credits { margin: 0 auto 2em; padding: 0 2em; text-align: center; }
 
-.skip-navigation { background: #D2C9B2; border: 1px dashed transparent; display: block; font-size: .875em; font-weight: 700; margin-top: -2.625rem; padding: .5rem; text-align: center; text-decoration: none; text-transform: uppercase; }
-.skip-navigation:hover, .skip-navigation:focus { background: #d7cfba; border-color: #0b0404; margin-top: 0; }
+.skip-navigation { background: #f7f7f5; border: 1px dashed transparent; display: block; font-size: .875em; font-weight: 700; margin-top: -2.625rem; padding: .5rem; text-align: center; text-decoration: none; text-transform: uppercase; }
+.skip-navigation:hover, .skip-navigation:focus { background: #fdfdfc; border-color: #0b0404; margin-top: 0; }
 
 .site-masthead { box-sizing: border-box; position: relative; text-align: center; }
 
 .site-masthead h1 { font-size: 3em; margin-bottom: 0; margin-top: 1em; padding: 0 2rem; }
 @media (min-width: 768px) { .site-masthead h1 { font-size: 6em; } }
 
-.site-masthead h2 { color: #64644B; font-size: 1.25em; margin: 0; padding: 0 2rem; }
+.site-masthead h2 { color: #4b5a64; font-size: 1.25em; margin: 0; padding: 0 2rem; }
 @media (min-width: 768px) { .site-masthead h2 { font-size: 3em; } }
 
 .site-navigation { margin-top: 2rem; padding: 0 1rem; }
@@ -193,7 +193,7 @@ figcaption { font-size: .875em; font-style: italic; text-align: center; margin-b
 .post-pagination a { text-decoration: none; text-transform: uppercase; transition: opacity .125s ease-in-out; }
 .post-pagination a:hover, .post-pagination a:focus { opacity: 1; }
 
-.post { background: white; margin: 2em auto; max-width: 60rem; padding: 2em 0; box-shadow: 12px 18px 24px rgba(84, 74, 49, 0.1); }
+.post { background: white; margin: 2em auto; max-width: 60rem; padding: 2em 0; box-shadow: 12px 18px 24px rgba(132, 132, 105, 0.1); }
 
 .post > * { margin-left: auto; margin-right: auto; max-width: 36rem; padding: 0 1em; }
 
@@ -215,10 +215,10 @@ figcaption { font-size: .875em; font-style: italic; text-align: center; margin-b
 
 .back-link { display: inline-block; font-size: .75em; padding: 1em; text-decoration: none; text-transform: uppercase; }
 
-.footnote { border: 1px solid #64644B; border-radius: 1em; color: #0b0404; display: inline; font-size: .75em; font-weight: 700; padding: 0 .75em; text-decoration: none; margin: 0 .25em; }
-.footnote:hover, .footnote:focus { background: #D2C9B2; border-color: #D2C9B2; }
+.footnote { border: 1px solid #4b5a64; border-radius: 1em; color: #0b0404; display: inline; font-size: .75em; font-weight: 700; padding: 0 .75em; text-decoration: none; margin: 0 .25em; }
+.footnote:hover, .footnote:focus { background: #f7f7f5; border-color: #f7f7f5; }
 
-.footnotes::before { content: ''; border: 0; display: block; width: 152px; height: 12px; margin: .5em auto 0; background: url(http://localhost:4000/maximejkb.github.io/assets/images/divider.svg) no-repeat top center; margin: 4em auto; }
+.footnotes::before { content: ''; border: 0; display: block; width: 152px; height: 12px; margin: .5em auto 0; background: url(http://localhost:4000/assets/images/divider.svg) no-repeat top center; margin: 4em auto; }
 
 .footnotes { margin-bottom: 4em; }
 
@@ -233,10 +233,10 @@ figcaption { font-size: .875em; font-style: italic; text-align: center; margin-b
 
 #search button[type="submit"] { display: none; }
 
-::-webkit-input-placeholder { color: #64644B; }
+::-webkit-input-placeholder { color: #4b5a64; }
 
-::-moz-placeholder { color: #64644B; }
+::-moz-placeholder { color: #4b5a64; }
 
-:-ms-input-placeholder { color: #64644B; }
+:-ms-input-placeholder { color: #4b5a64; }
 
-:-moz-placeholder { color: #64644B; }
+:-moz-placeholder { color: #4b5a64; }
