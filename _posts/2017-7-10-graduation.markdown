@@ -9,7 +9,7 @@ I went to three high school graduations before my own. I went to my brother Juli
 <figure>
   <img alt="Maxime" src="/assets/images/graduation.jpeg" />
   <figcaption>
-    Despite the tone of this piece, I look pretty happy here :)
+    My mom, me, my godmother, and my sister. Despite the tone of this piece, I look pretty happy here :)
   </figcaption>
 </figure>
 
