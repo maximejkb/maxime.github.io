@@ -498,7 +498,7 @@ They stand there a moment listening to Job Renkins screaming at them.
 {:act}
 ----
 SCENE 2.5
-{:dc}
+
 A pretty woman stands around talking to Fall and Bennie. She’s trying to talk to Fall mostly, because he’s pretty as well.
 {:act}
 ALLEGRA
