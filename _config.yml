@@ -29,7 +29,7 @@ github_username:  maximejkb
 theme: hitchens-theme
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 ignore_theme_config: true
 hide_credits: true
@@ -37,8 +37,8 @@ hide_search: true
 show_excerpts: true
 excerpt_length: 0
 
-# paginate: 5
-# paginate_path: "/page/:num/"
+paginate: 5
+paginate_path: "/:num"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
