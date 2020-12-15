@@ -6,6 +6,13 @@ excerpt: a semi-fictional piece i wrote just after high school about how it felt
 ---
 I went to three high school graduations before my own. I went to my brother Julien’s. I went to my sister Aya’s. I went to my sister Camille’s. Each time, it felt like the world had opened up in front of them. They wore red robes and sat in the amphitheater in front of the elm trees and the flag poles that held up the class flags from years past. They sat and the sky was blue and the principal said many pretty things that were the same each year and my dad ran up the aisle to kneel at the front and take a photo when my sibling took their diploma. I thought, “That’ll be me one day.” And then it was.
 
+<figure>
+  <img alt="Maxime" src="/assets/images/graduation.jpeg" />
+  <figcaption>
+    Despite the tone of this piece, I look pretty happy here :)
+  </figcaption>
+</figure>
+
 ---
 
 I rehearsed graduation twice that day, and stood in line in the school gymnasium, and was sweaty and hot in the morning and cold in the afternoon when the rain came in. It didn’t rain at graduation. The rain stopped an hour before.
@@ -128,4 +135,4 @@ We watched the ship slide under the bridge and into the fog. I knew that if the 
 
 [^1]: Don't want to hurt any feelings, plus I was probably just being mean.
 [^2]: Anyone who went to my high school knows who I'm talking about, but I should also note that the details of his life story / the meeting in the auditorium were fictionalized.
-[^3]: Thoughts: I still find some of the imagery really beautiful in its starkness... At the time I guess I accessed "depth" mostly through sadness. The moments I tended to write about were the moments that made me internalize some hollowness or emptiness I'd identified in my life. Which is not to say I was a sad person, I think I just had yet to realize how much depth can be about beauty; I was always able to see the hollowness of thing X, but not the fullness X used to have or the adjacent fullness of some other thing Y that made me cognizant of the hollowness of X. Maybe that's because I engaged with life mostly by thinking about it -- by being introspective -- but not by actually doing cool things. On a technical level, I get the sense that the piece was trying too hard to make me feel something. It was insistent but too transparent for its own good, which is to say that a lot of the ideas were (extremely) on the nose... All in all, I don't hate it, but I also don't love the person it reveals. But that's who I was, and I know where I was coming from, so I accept it :) 
+[^3]: Thoughts: I still find some of the imagery really beautiful in its starkness... At the time I guess I accessed "depth" mostly through sadness. The moments I tended to write about were the moments that made me internalize some hollowness or emptiness I'd identified in my life. Which is not to say I was a sad person, I think I just had yet to realize how much depth can be about beauty; I was always able to see the hollowness of thing X, but not the fullness X used to have or the adjacent fullness of some other thing Y that made me cognizant of the hollowness of X. Maybe that's because I engaged with life mostly by thinking about it -- by being introspective -- but not by actually doing cool things. On a technical level, I get the sense that the piece was trying too hard to make me feel something. It was insistent but too transparent for its own good, which is to say that a lot of the ideas were (extremely) on the nose... All in all, I don't hate it, but I also don't love the person it reveals. But that's who I was, and I know where I was coming from, so I accept it.
