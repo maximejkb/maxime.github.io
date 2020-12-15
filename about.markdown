@@ -2,7 +2,7 @@
 title: about
 layout: post
 ---
-Hi! I'm Maxime, a researcher, student, and writer from the Bay Area. I graduated from UC Berkeley, where I studied computer science and creative writing, in December 2021. Now I work in a lab at Berkeley Artificial Intelligence Research, investigating deep-learning based methods for image compression[^1].
+Hi! I'm Maxime, a researcher, student, and writer from the Bay Area. I graduated from UC Berkeley, where I studied computer science and creative writing, in December 2020. Now I work in a lab at Berkeley Artificial Intelligence Research, investigating deep-learning based methods for image compression[^1].
 
 <figure>
   <img alt="Maxime" src="/assets/images/headshot.jpg" />
