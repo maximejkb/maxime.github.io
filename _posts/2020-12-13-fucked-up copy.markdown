@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "fucked_up_0"
+title:  "fucked up"
 date:   2020-12-13 21:15:39 -0800
+excerpt: something from a freewrite
 ---
+
 She asks me if I want to see her naked. I guess in some ill-lit cave at the base of my brain stem, I do, but the human in me is tired and just wants to sleep. But I give a little smile and say Yes, because she is fragile in her offering, because she is timid and the forthrightness is difficult for her. If I told her No it would devastate her. She says Okay. She starts to fumble with the top button of her shirt -- she is stiff with nerves, performing this part of a girl who knows what to do here. I laugh and put a hand on her hip and pull her toward where I am seated on the edge of the bed. I say Let me. She looks down at me and her hair falls into my eyes. She laughs now and arranges her hair over her shoulder. I reach for her top button and ask Can I? And she nods. I unbutton her shirt and she shrugs it off and looks at me as if for approval. I slide my hands over her thin shoulders and down to her waist and pretend to be more overcome with desire than I am. Normally I would not have to pretend, but at the moment I want to sleep. I put my head against her stomach and close my eyes. She runs her fingers through my hair and this does give me a rush of pleasure -- I have always liked the feeling of someone’s nails tracing over my scalp. It gives me chills. I hook my fingers on the inside of her waistband and make my way around to the front and ask Can I, and she says Yes, and I unbutton her jeans and take them down without opening my eyes. I really am tired. I pull her down and onto my lap and hold onto her, and she holds my head but there is the lingering question of What now? I don’t know how to tell her I just want to sleep. After a minute she says We can just sleep, and I feel myself flush with gratitude. I laugh.
 
 You can read me, huh, I say.
