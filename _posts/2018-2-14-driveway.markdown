@@ -29,6 +29,13 @@ I looked up. The stars were better than in San Francisco, but with the trees beh
 
 Kim and Allison finished their cigarettes. They went inside, where my siblings, Aya, Camille, and Julien, were waiting to play a game of cards.
 
+<figure>
+  <img alt="siblings" src="/assets/images/siblings.jpeg" />
+  <figcaption>
+    aya, julien, camille, and me with our dad. cool glasses, camille
+  </figcaption>
+</figure>
+
 I stayed out and thought about Biot. It was a small town near Nice. Until I was ten, my parents rented a house there each summer. They sent an open invitation to the extended family, and often we had twenty or twenty-five people staying with us, each for a week or so. It was how Camille, Julien, Aya, and I met our grandparents, our uncles and aunts, and most of our cousins. It was a way of bridging the Atlantic Ocean that lay between us and the rest of our family, so that to the younger cousins, even if we were _les Américains_, at least we were not strangers. It was during the first of those summers that we met Kim and Allison, who must have been twelve and ten at the time, and played with them in the pool and lay like fish on the deck and chased each other on tricycles and ate lunch still in our swimsuits and read _Asterix_ and _Tintin_ until we were told to go outside.
 
 After a few minutes I grew cold and went inside to play cards. We played until midnight. Then Kim yawned and Aya said, “We should let you sleep so you don’t keel over in the airport tomorrow.”

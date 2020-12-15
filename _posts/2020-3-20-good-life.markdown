@@ -19,6 +19,13 @@ Ideally, my sense of individuality or identity feeds into my work and vice versa
 
 By fulfilling relationships, I mean relationships that make me feel happy and whole and comfortable, sure, but I also mean relationships that foster that sense of progress by which I defined fulfillment. A fulfilling relationship is one that challenges me to be better, to step outside of my comfort zone, and to understand different ways of viewing the world or interacting with people. This implies that fulfilling relationships should often be with people who are very different from me.
 
+<figure>
+  <img alt="my friends!" src="/assets/images/friends.jpeg" />
+  <figcaption>
+    some fulfilling relationships :) 
+  </figcaption>
+</figure>
+
 I could further divide relationships into the romantic, the core friendships, and the peripheral friendships – all of which I think are important. The romantic, or love, gives life some of its spark. It makes it exciting. A fulfilling love is one that isn’t just exciting for its novelty or for the potential energy it represents before it is realized (because these things fade after a while). It is exciting because the other person is a constant source of novelty. They see the world in a way that is refreshing or surprising to me again and again, and because of this I learn to see the world newly.
 
 The core friendships in my life grant me a sense of being truly known and of having unconditional support. Just like good romantic partners, they are a constant source of novelty, and hopefully I am a source of novelty to them. This implies that we are often introducing each other to new ways of viewing things, and as such, a certain level of open discussion and disagreement is a good sign of a healthy close friendship. These people are the family I choose and I'm lucky to have them.

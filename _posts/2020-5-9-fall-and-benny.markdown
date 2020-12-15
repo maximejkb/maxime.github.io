@@ -2,11 +2,18 @@
 layout: post
 title:  "fall and benny"
 date:   2020-5-9 21:15:39 -0800
-excerpt: a couple of nonsensical play scenes i wrote for some friends 
+excerpt: a couple of nonsensical play scenes i wrote for some friends
 ---
 {:dc: style="text-align: center"}
 {:paren: style="text-align: center; font-style: italic;"}
 {:act: style="text-align: right; font-style: italic;"}
+
+<figure>
+  <img alt="readers!" src="/assets/images/katherine_james.jpeg" />
+  <figcaption>
+    ...these friends, in fact! james read for bennie and katherine read for fall (over zoom, just for fun)
+  </figcaption>
+</figure>
 
 SCENE 1
 
