@@ -20,9 +20,10 @@ Ideally, my sense of individuality or identity feeds into my work and vice versa
 By fulfilling relationships, I mean relationships that make me feel happy and whole and comfortable, sure, but I also mean relationships that foster that sense of progress by which I defined fulfillment. A fulfilling relationship is one that challenges me to be better, to step outside of my comfort zone, and to understand different ways of viewing the world or interacting with people. This implies that fulfilling relationships should often be with people who are very different from me.
 
 <figure>
-  <img alt="my friends!" src="/assets/images/friends.jpeg" />
+  <img alt="my friends!" src="/assets/images/couch.jpeg" />
+  <img alt="my friends!" src="/assets/images/fancy_party.jpg" />
   <figcaption>
-    some fulfilling relationships :) 
+    some fulfilling relationships :)
   </figcaption>
 </figure>
 

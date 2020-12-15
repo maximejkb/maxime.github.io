@@ -261,6 +261,7 @@ DEPENDENCIES
   github-pages (~> 209)
   hitchens-theme
   jekyll-feed (~> 0.12)
+  jekyll-paginate
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

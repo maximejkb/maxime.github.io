@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "on cs"
+date:   2019-12-14 21:15:39 -0800
+excerpt: an initial attempt at trying to explain why this field is endlessly fascinating to me
+---
+Before I came to Berkeley I had never programmed or studied CS in my life. On day one, I watched Denero write one line of code and produce every palindrome in Shakespeare’s collected works. I imagined how much time it would take to do this myself – to read every play, to scan every line, and to find every word written the same backwards and forwards. I was hooked. To me, learning CS was like watching someone explain a magic trick.
+
+When he taught me how it worked, it erased some of the wonder, of course. But it was fascinating and beautiful and elegant and when the trick finally clicked there was the “Aha!” moment of understanding how I had been duped. Then I could turn around, that very same day, and perform the trick myself – for my friends, for my parents, for anyone. I could iterate on it and generalize it, and that was intoxicating.
+
+As I learned more and understood how CS was a study of abstractions, I found that I could always go deeper. Once I had learned all of the tricks in one stage it was revealed that all of these tricks were built on deeper, more elemental forms of magic. Python is interpreted into C which is run through a compiler which compiles C to assembly which is run through a linker and passed to a loader to be translated to machine code to be run on a processor. The processor has a data-path which is made up of circuit blocks which is made up of combinatorial logic units and state elements. Software all the way down to the metal, and there the realm of electrical engineering and physics begins.
+
+At every step, I was a child asking, “Why? Why? Why?” and at every step there was an answer. Logic all the way through the stack. It was dizzying and beautiful.[^1]
+
+[^1]: I want to expand on this at some point -- I have more I want to say, I just haven't found the words yet.
