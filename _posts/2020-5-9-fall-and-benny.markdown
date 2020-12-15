@@ -2,7 +2,7 @@
 layout: post
 title:  "fall and benny"
 date:   2020-5-9 21:15:39 -0800
-excerpt: a couple nonsensical play scenes i wrote for some friends 
+excerpt: a couple of nonsensical play scenes i wrote for some friends 
 ---
 {:dc: style="text-align: center"}
 {:paren: style="text-align: center; font-style: italic;"}
