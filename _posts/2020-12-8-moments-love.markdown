@@ -14,9 +14,16 @@ One of the girls asks us whether when it comes to love we’re, “Like, simpy, 
 
 “Oh, okay. I respect that, I respect that,” she says. Her face registers some note of surprise. I wonder whether she was only trying to preempt the way she imagined we thought of love.
 
-Truth is, sunsets remind me of you. The beach reminds me of you. Crossing the Bay Bridge reminds me of you; walking down Channing; walking past the Campanile; walking past BAMPFA; this city is nothing but the afterimage of you; I’m walking around still squinting at your light.
+Truth is, this city is nothing but the afterimage of you. Fire Trails sunsets remind me of you. The beach reminds me of you. Crossing the Bay Bridge reminds me of you; walking past the Campanile; walking past BAMPFA.
 
 I took the Polaroid of you out of my wallet and put it on my wall. I don’t know what that means. I see it more often than before, but I don’t carry it with me where I go. Maybe that’s moving on or maybe it’s hanging on. I guess I’ll only know in retrospect.
+
+<figure>
+  <img alt="Maxime" src="/assets/images/campanile.JPG" />
+  <figcaption>
+    a memory from the campanile
+  </figcaption>
+</figure>
 
 ---
 
