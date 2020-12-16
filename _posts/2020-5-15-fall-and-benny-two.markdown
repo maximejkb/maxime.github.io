@@ -34,7 +34,7 @@ Right--
 {:dc}
 BENNIE
 {:dc}
-You had really good
+You had really good linework.
 {:dc}
 FALL
 {:dc}
@@ -164,7 +164,7 @@ Okay... I’m sorry, you fucked the girl down the hall?
 {:dc}
 BENNIE
 {:dc}
-Yeah, she was like in the hall or whatever fixing the hall light. It was flickering. And so I was like, “Can I help you with that?”
+Yeah, she was like in the hall or whatever fixing the hall light. It was flickering. And so I was like, “Can I help you with that?” but it came out all weird and low and porn-y.  
 {:dc}
 FALL
 {:dc}
