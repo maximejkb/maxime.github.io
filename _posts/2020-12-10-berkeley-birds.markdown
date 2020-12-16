@@ -5,7 +5,7 @@ date:   2020-12-10 21:15:39 -0800
 excerpt: a freewrite about the birds in berkeley
 ---
 <figure>
-  <video width="100%" autoplay muted loop>
+  <video width="100%" autoplay muted loop playsinline>
     <source src="/assets/images/window.mp4" type="video/mp4">
   </video>
   <figcaption>
