@@ -1,6 +1,33 @@
 from xml.etree import ElementTree as ET
 import sys
 
+def parse_line(line):
+    line_content = line.find('Text')
+    if line_content is None or line_content.text is None:
+        for child in line:
+            parse_line(child)
+        return
+
+    line_content = line_content.text
+    line_type = line.get('Type')
+    if line_type == "Scene Citation":
+        # as long as it's not the first scene heading, add a divider before the new scene
+        if lines_out:
+            lines_out.append("---")
+        tag = "\n"
+    elif line_type == "Character" or line_type == "Dialogue":
+        tag = "{:dc}"
+    elif line_type == "Action" or line_type == "Notations":
+        tag = "{:act}"
+    elif line_type == "Parenthetical":
+        tag = "{:paren}"
+
+    if line_type == "Character" or line_type == "Scene Citation":
+        line_content = line_content.upper()
+    lines_out.append(line_content)
+    lines_out.append(tag)
+
+
 if len(sys.argv) < 5:
     print("usage: python3 fdx_to_post.py <play file name> <post date> <post title> <post excerpt>")
     sys.exit(1)
@@ -18,26 +45,7 @@ presets = ["{:dc: style=\"text-align: center\"}", "{:paren: style=\"text-align: 
 lines_out = []
 
 for line in play:
-    line_type = line.get('Type')
-    line_content = line.find('Text').text
-    if line_type == "Scene Citation":
-        # as long as it's not the first scene heading, add a divider before the new scene
-        if lines_out:
-            lines_out.append("---")
-        tag = "\n"
-    elif line_type == "Character" or line_type == "Dialogue":
-        tag = "{:dc}"
-    elif line_type == "Action" or line_type == "Notations":
-        tag = "{:act}"
-    elif line_type == "Parenthetical":
-        tag = "{:paren}"
-    if line_content:
-        if line_type == "Character" or line_type == "Scene Citation":
-            line_content = line_content.upper()
-        lines_out.append(line_content)
-        lines_out.append(tag)
-    else:
-        print("a line had no interpretable text (double dialogue often causes this)")
+    parse_line(line)
 
 out_file = "_posts/{}-{}.markdown".format(date, title)
 with open(out_file, "w") as out:
