@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "fall and benny"
+title:  "fall and bennie"
 date:   2020-5-9 21:15:39 -0800
 excerpt: a couple of nonsensical play scenes i wrote for some friends
 ---
