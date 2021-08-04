@@ -1,28 +1,28 @@
 ---
-title: about
+title: About
 layout: post
 ---
-Hi! I'm Maxime, a researcher, student, and writer from the Bay Area. I graduated from UC Berkeley, where I studied computer science and creative writing, in December 2020. Now I work in a lab at Berkeley Artificial Intelligence Research, investigating deep-learning based methods for image compression[^1].
+Hi! I'm Maxime, a researcher, student, and writer from the Bay Area. I graduated from UC Berkeley, where I studied computer science and creative writing, in December 2020. I have worked in the past at a startup,
+a big tech company, and in finance. Now I work in a computer vision lab at Berkeley Artificial Intelligence Research, investigating deep-learning based methods for melanoma segmentation. My previous research focused on deep-learning based image compression[^1]. My full resume can be found [here][resume].
 
 <figure>
-  <img alt="Maxime" src="/assets/images/headshot.jpg" />
+  <img alt="Maxime" src="/assets/images/blurry_headshot.jpeg" />
   <figcaption>
-    It's me! (Just two weeks after having my right hip reconstructed -- cropped out on the left are the crutches I used for around 3 months.)
+    My best attempt at a "writerly" headshot.
   </figcaption>
 </figure>
 
-When I'm not learning cool things about computer vision, I like to write. That's what `notebook_0` is for: it's an informal place for me to share essays, fiction, play scenes, and other content [^2]. The hope is that this site will give me a place to point people who are curious about the kinds of things I write. I also hope that publishing snippets here every once in a while will incentivize me to write more and write freely, without much pressure to polish or revise my drafts.
-
-Thanks for reading, and as always, if you're one of my friends and suspect I'm writing about you... everything herein is fiction. Any resemblance to reality is purely coincidental :)
+When I'm not researching AI, I like to write. While I am still defining my areas of focus, I aim to use my background to write about AI and technology. I also aim to produce data-driven, computational, and investigative journalism [^2].
 
 <div class="post-meta">
    — Maxime Kawawa-Beaudan
 </div>
 
-[^1]: You can read more about this (and other projects I've worked on) [here][linkedin]. You can also check out [my resume][resume] if you're interested!
+[^1]: A preprint of this paper can be found [here][preprint].
 
-[^2]: This site was made using the [Hitchens theme][hitchens], with some alterations.
+[^2]: I built this site using the [Hitchens theme][hitchens], with some alterations.
 
+[preprint]: http://www-video.eecs.berkeley.edu/papers/mkawawa/RECOGNITION-AWARE%20LEARNED%20IMAGE%20COMPRESSION.pdf
 [linkedin]: https://www.linkedin.com/in/maximejkb/
 [resume]: /assets/resume.pdf
 [hitchens]: https://github.com/patdryburgh/hitchens

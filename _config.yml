@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: notebook_0
+title: Maxime Kawawa-Beaudan
 email: maximejkb@berkeley.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  a place to put some writing
+  Freelance journalism portfolio
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://maximejkb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  maximejkb
@@ -35,7 +35,7 @@ ignore_theme_config: true
 hide_credits: true
 hide_search: true
 show_excerpts: true
-excerpt_length: 0
+excerpt_length: 100
 
 paginate: 5
 paginate_path: "/:num"

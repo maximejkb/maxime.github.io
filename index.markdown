@@ -1,60 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+---
+title: Portfolio
+layout: post
+---
+Maxime Kawawa-Beaudan is an AI researcher, freelance journalist, and award-winning author of short fiction.
+His fiction and essays have appeared in _Glimmer Train_, and he won the National YoungArts Foundation award for excellence in the arts in 2017.
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Maxime Kawawa-Beaudan &mdash; Portfolio</title>
-
-    <meta name="description" content="Freelance journalism portfolio">
-
-    <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css?1628044131327427000">
-
-    <link rel="apple-touch-icon" href="">
-    <link rel="shortcut icon" type="image/png" href="/assets/images/favico.png"></head>
-  <body>
-
-    
-  
-
-
-  <nav class="site-navigation" role="navigation">
-    <ul>
-      <li>
-        <a href="/">
-          portfolio
-        </a>
-      </li>
-    
-      <li >
-        
-          <a href="/about.html">
-            about
-          </a>
-        
-      </li>
-    
-    </ul>
-  </nav>
-
-
-
-
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" id="main" role="article" aria-label="Content">
-
-  
-    <h1 class="post-title divided p-name" itemprop="name headline">
-      Portfolio
-    </h1>
-  
-
-  <div class="post-content e-content" itemprop="articleBody">
-    <p>Maxime Kawawa-Beaudan is an AI researcher, freelance journalist, and award-winning author of short fiction.
-His fiction and essays have appeared in <em>Glimmer Train</em>, and he won the National YoungArts Foundation award for excellence in the arts in 2017.</p>
-
-<p>What follows is a selection of representative work in various categories. <a href="/about.html">Click here</a> for a full biography.</p>
+What follows is a selection of representative work in various categories. [Click here][about] for a full biography.
 
 <h3> Journalism </h3>
 <ul>
@@ -81,8 +32,8 @@ His fiction and essays have appeared in <em>Glimmer Train</em>, and he won the N
   <li>"Big Picture Kind of Guy" — a short story appearing in the 2017 National YoungArts Foundation Anthology <a href="https://youngarts.org/wp-content/uploads/2021/06/2017-youngarts-winners-award-level.pdf">(view list of awardees here)</a></li>
   </ul>
 
-<h3> Technical </h3>
-<ul>
+  <h3> Technical </h3>
+  <ul>
     <li>
       <a href="http://www-video.eecs.berkeley.edu/papers/mkawawa/RECOGNITION-AWARE%20LEARNED%20IMAGE%20COMPRESSION.pdf">Recognition Aware Learned Image Compression</a> — a preprint of my image compression paper
       </li>
@@ -91,42 +42,5 @@ His fiction and essays have appeared in <em>Glimmer Train</em>, and he won the N
       </li>
     </ul>
 
-
-  </div>
-
-  <div class="post-meta">
-    
-    <time class="post-date dt-published" datetime="" itemprop="datePublished"></time>
-  </div>
-
-</article>
-
-
-    
-
-    
-
-
-  <nav class="site-navigation" role="navigation">
-    <ul>
-      <li>
-        <a href="/">
-          portfolio
-        </a>
-      </li>
-    
-      <li >
-        
-          <a href="/about.html">
-            about
-          </a>
-        
-      </li>
-    
-    </ul>
-  </nav>
-
-
-
-  </body>
-</html>
+[about]: about.markdown
+[gt_essay]: http://www.glimmertrain.com/bulletins/essays/b132beaudan.php
