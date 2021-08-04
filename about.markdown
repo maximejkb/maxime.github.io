@@ -12,7 +12,7 @@ a big tech company, and in finance. My full resume can be found [here][resume].
   </figcaption>
 </figure>
 
-When I'm not researching AI, I like to write. I have published short fiction, essays, and journalism, and been selected for workshops in short fiction and playwriting. I have three years of journalism experience, serving as a reporter, copy editor, art director, and opinion columnist for _Redwood Bark_. I also served as a reader for the literary journal _Berkeley Fiction Review_.
+When I'm not researching AI, I like to write. I have published short fiction, essays, and journalism, and have been selected for workshops in short fiction and playwriting. I have three years of journalism experience, serving as a reporter, copy editor, art director, and opinion columnist for _Redwood Bark_. I also served as a reader for the literary journal _Berkeley Fiction Review_.
 
 While I am still defining my areas of focus, I aim to use my background to write about AI and technology. I also aim to produce data-driven, computational, and investigative journalism [^2].
 
