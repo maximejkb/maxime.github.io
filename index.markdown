@@ -3,9 +3,9 @@ title: Portfolio
 layout: post
 ---
 Maxime Kawawa-Beaudan is an AI researcher, freelance journalist, and award-winning author of short fiction.
-His fiction and essays have appeared in _Glimmer Train_, and he won the National YoungArts Foundation award for excellence in writing in 2017.
+He has three years of journalism experience, serving as a reporter, copy editor, art director, and opinion columnist for _Redwood Bark_. His fiction and essays have appeared in _Glimmer Train_, and he won the National YoungArts Foundation award for excellence in writing in 2017.
 
-What follows is a selection of representative works in various categories. [Click here][about] to learn more about Maxime.
+Below is a selection of representative works in various categories. [Click here][about] to learn more about Maxime.
 
 <h3> Journalism </h3>
 <ul>
