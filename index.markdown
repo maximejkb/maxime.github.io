@@ -1,11 +1,31 @@
 ---
-title: Portfolio
+title: Maxime Kawawa-Beaudan
 layout: post
 ---
-Maxime Kawawa-Beaudan is an AI researcher and award-winning author of short fiction.
-He has three years of journalism experience, serving as a reporter, copy editor, art director, and opinion columnist for _Redwood Bark_. His fiction and essays have appeared in _Glimmer Train_, and he won the National YoungArts Foundation award for excellence in writing in 2017.
+<figure>
+  <img alt="Maxime" src="/assets/images/headshot.jpg" width="250"/> 
+</figure>
+I am a graduate researcher at the University of California, Berkeley, doing work in robotics and computer vision as a member of Berkeley Artificial Intelligence Research. My full resume can be found [here][resume].
 
-Below is a selection of representative works in various categories. [Click here][about] to learn more about Maxime.
+When I'm not researching AI, I like to write and make videos. I aim to use my background to communicate ideas in AI and open up conversations about the effective use of technology. I also aim to produce videos using computational techniques to informally investigate journalistic topics that interest me.
+
+I have published short fiction, essays, and journalism, and have been selected for workshops in short fiction and playwriting. I have three years of journalism experience, serving as a reporter, copy editor, art director, and opinion columnist for _Redwood Bark_. I also served as a reader for the literary journal _Berkeley Fiction Review_.
+
+<h3> Video Production </h3>
+<ul>
+  <li><a href="https://youtu.be/qUAGxEM5G9g">An Early Memory</a> — a multimedia project I undertook to composite a reading of a freewrite from my notebook with music and film </li>
+  <li><a href="https://youtu.be/5tGzJV4T0tQ">What are Neural Network Layers</a> — an approachable introduction to neural network structures I filmed as part of an "Explaining AI" series </li>
+  </ul>
+  
+  <h3> Technical </h3>
+  <ul>
+    <li>
+      <a href="https://arxiv.org/abs/2202.00198">Recognition Aware Learned Image Compression</a> — published at Computational Imaging XX Conference, Electronic Imaging Symposium, January 2022
+      </li>
+    <li>
+      <a href="https://maximejkb.github.io/graphs/">Graphs</a> — a graph visualizer as an example of an interactive media project
+      </li>
+    </ul>
 
 <h3> Journalism </h3>
 <ul>
@@ -13,12 +33,6 @@ Below is a selection of representative works in various categories. [Click here]
   <li><a href="https://issuu.com/redwoodbark/docs/september2016/14">"The Hidden Roots of Redwood"</a> — a long-form feature piece profiling a custodian (originally published online as immersive multimedia, now available only in provided print form)</li>
   <li><a href="https://redwoodbark.org/33969/culture/cohen-surfing-lifestyle/">"Cohen gets 'tide' up in the surfing lifestyle"</a> — profile of an outdoorsman and science teacher</li>
   <li><a href="https://redwoodbark.org/27885/culture/ecuador-voyagers-story-didnt-end-return/">"For Ecuador voyagers, the story didn’t end with return"</a> — narrative news piece based on the first-person account of an earthquake survivor </li>
-  </ul>
-
-<h3> Video Production </h3>
-<ul>
-  <li><a href="https://youtu.be/qUAGxEM5G9g">An Early Memory</a> — a multimedia project I undertook to composite a reading of a freewrite from my notebook with music and film </li>
-  <li><a href="https://youtu.be/5tGzJV4T0tQ">What are Neural Network Layers</a> — an approachable introduction to neural network structures I filmed as part of an "Explaining AI" series </li>
   </ul>
 
 <h3> Essays </h3>
@@ -32,15 +46,5 @@ Below is a selection of representative works in various categories. [Click here]
   <li>"Big Picture Kind of Guy" — a short story appearing in the 2017 National YoungArts Foundation Anthology <a href="https://youngarts.org/wp-content/uploads/2021/06/2017-youngarts-winners-award-level.pdf">(view list of awardees here)</a></li>
   </ul>
 
-  <h3> Technical </h3>
-  <ul>
-    <li>
-      <a href="http://www-video.eecs.berkeley.edu/papers/mkawawa/RECOGNITION-AWARE%20LEARNED%20IMAGE%20COMPRESSION.pdf">Recognition Aware Learned Image Compression</a> — a preprint of my image compression paper
-      </li>
-    <li>
-      <a href="https://maximejkb.github.io/graphs/">Graphs</a> — a graph visualizer as an example of an interactive media project
-      </li>
-    </ul>
 
-[about]: about.markdown
-[gt_essay]: http://www.glimmertrain.com/bulletins/essays/b132beaudan.php
+[resume]: /assets/resume.pdf
