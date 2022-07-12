@@ -20,7 +20,7 @@ When I'm not researching AI, I like to write and make videos. I aim to use my ba
   <ul>
 
     <li>
-      <a href="https://sites.google.com/view/hexapod-rl/home">Learning to Walk: Legged Hexapod Locomotion from Simulation to the Real World</a> — M.S. thesis May 2022
+      <a href="https://sites.google.com/view/hexapod-rl/home">Learning to Walk: Legged Hexapod Locomotion from Simulation to the Real World</a> — M.S. thesis, published May 2022
       </li>
     <li>
       <a href="https://arxiv.org/abs/2202.00198">Recognition Aware Learned Image Compression</a> — published at Computational Imaging XX Conference, Electronic Imaging Symposium, January 2022
