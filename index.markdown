@@ -5,20 +5,23 @@ layout: post
 <figure>
   <img alt="Maxime" src="/assets/images/headshot.jpg" width="250"/> 
 </figure>
-I am a graduate researcher at the University of California, Berkeley, doing work in robotics and computer vision as a member of Berkeley Artificial Intelligence Research. My full resume can be found [here][resume].
+I am a senior research scientist at J.P. Morgan Artificial Intelligence Research. I hold an M.S. in Electrical Engineering and Computer Science and a B.A. in Computer Science from the University of California, Berkeley. As a member of Berkeley Artificial Intelligence Research, one of the world's foremost A.I. research labs, I did work in robotics, deep reinforcement learning, and computer vision. My full resume can be found [here][resume].
 
-When I'm not researching AI, I like to write and make videos. I aim to use my background to communicate ideas in AI and open up conversations about the effective use of technology. I also aim to produce videos using computational techniques to informally investigate journalistic topics that interest me.
-
-I have published short fiction, essays, and journalism, and have been selected for workshops in short fiction and playwriting. I have three years of journalism experience, serving as a reporter, copy editor, art director, and opinion columnist for _Redwood Bark_. I also served as a reader for the literary journal _Berkeley Fiction Review_.
+When I'm not researching AI, I like to write and make videos. I aim to use my background to communicate ideas in AI and open up conversations about the effective use of technology.
 
 <h3> Video Production </h3>
 <ul>
+  <li><a href="https://youtu.be/yy-NEx1hGes">Project Rewind</a> — a project documenting the process of digitizing over 100 hours of 8mm home video -- how and why to do it </li>
+  <li><a href="https://youtu.be/QJDIGEdWjhQ">A Gift for a Friend</a> — a project documenting the process of building a small token of friendship </li>
   <li><a href="https://youtu.be/qUAGxEM5G9g">An Early Memory</a> — a multimedia project I undertook to composite a reading of a freewrite from my notebook with music and film </li>
-  <li><a href="https://youtu.be/5tGzJV4T0tQ">What are Neural Network Layers</a> — an approachable introduction to neural network structures I filmed as part of an "Explaining AI" series </li>
   </ul>
   
   <h3> Technical </h3>
   <ul>
+
+    <li>
+      <a href="https://sites.google.com/view/hexapod-rl/home">Learning to Walk: Legged Hexapod Locomotion from Simulation to the Real World</a> — M.S. thesis May 2022
+      </li>
     <li>
       <a href="https://arxiv.org/abs/2202.00198">Recognition Aware Learned Image Compression</a> — published at Computational Imaging XX Conference, Electronic Imaging Symposium, January 2022
       </li>
