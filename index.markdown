@@ -28,6 +28,29 @@ Reach out to me at <u>maxime.jkb@gmail.com</u> to see a full resume!
   <iframe width="560" height="315" src="  https://youtube.com/embed/i5iZ976B2ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </ul>
 
+  
+<h3> Technical </h3>
+  <ul>
+    <li>
+    <u>"Perceptive Hexapod Legged Locomotion for Climbing Joist Environments"</u> — extension of the M.S. thesis to the setting with perception, submitted to IROS 2023
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/OBjRWEoQPww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/AYu7XoObaYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </li> 
+    <li>
+      <a href="https://sites.google.com/view/hexapod-rl/home">Click to see results and videos from "Learning to Walk: Legged Hexapod Locomotion from Simulation to the Real World"</a> — M.S. thesis on reinforcement learning with sim-to-real transfer and student-teacher learning, published May 2022
+      </li>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/bpHb3Itvpks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/b_FhnKHXIhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <li>
+      <a href="http://www-video.eecs.berkeley.edu/papers/avz/revised-icra-2022.pdf">Click to read "Robotic Cleaning and Air Sealing of Attics"</a> — published at ICRA 2022, workshop on robotics for climate change
+      </li>
+    <li>
+      <a href="https://arxiv.org/abs/2202.00198">Click to read "Recognition Aware Learned Image Compression"</a> — published at Computational Imaging XX Conference, Electronic Imaging Symposium, January 2022
+      </li>
+    <li>
+      <a href="https://maximejkb.github.io/graphs/">Click to see "Graphs"</a> — a graph visualizer as an example of an interactive media project
+      </li>
+    </ul>
 
 <h3> Journalism </h3>
 <ul>
@@ -48,19 +71,3 @@ Reach out to me at <u>maxime.jkb@gmail.com</u> to see a full resume!
   <li><a href="https://youtu.be/8V862JnbEz4">Click to view "Big Picture Kind of Guy"</a> — a short story appearing in the 2017 National YoungArts Foundation Anthology</li>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/8V862JnbEz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </ul>
-  
-  <h3> Technical </h3>
-  <ul>
-
-    <li>
-      <a href="https://sites.google.com/view/hexapod-rl/home">Click to read "Learning to Walk: Legged Hexapod Locomotion from Simulation to the Real World"</a> — M.S. thesis, published May 2022
-      </li>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/bpHb3Itvpks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/b_FhnKHXIhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <li>
-      <a href="https://arxiv.org/abs/2202.00198">Click to read "Recognition Aware Learned Image Compression"</a> — published at Computational Imaging XX Conference, Electronic Imaging Symposium, January 2022
-      </li>
-    <li>
-      <a href="https://maximejkb.github.io/graphs/">Click to see "Graphs"</a> — a graph visualizer as an example of an interactive media project
-      </li>
-    </ul>
