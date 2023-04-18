@@ -6,7 +6,7 @@ layout: post
 
 I am a research scientist at J.P. Morgan AI Research. I hold an M.S. in Electrical Engineering and Computer Science and a B.A. in Computer Science from the University of California, Berkeley. As a member of Berkeley Artificial Intelligence Research, one of the world's foremost AI research labs, I worked on robotics, deep reinforcement learning, and computer vision. 
 
-When I'm not researching AI, I like to write and make videos. This portfolio highlights some of my work, both technical and non-technical.
+When I'm not researching AI, I like to <a href="https://posttruth.substack.com/about">write at Post Truth</a> and <a href="https://www.youtube.com/@maximejkb">make videos on YouTube</a>. This portfolio highlights some of my work, both technical and non-technical.
 
 <!-- I aim to explain AI and open up conversations about the effective use of technology. -->
 
